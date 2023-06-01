@@ -1,0 +1,65 @@
+basic.forever(function () {
+    basic.showLeds(`
+        . # # # .
+        . # . . .
+        . # # # .
+        . . . # .
+        . # # # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        . . # . .
+        . # . # .
+        . # . # .
+        . # # # .
+        . # . # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        # . . . #
+        # # . # #
+        # . # . #
+        # . . . #
+        # . . . #
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        . # . # .
+        . # . # .
+        . # . # .
+        . # . # .
+        . # # # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        . # # # .
+        . # . . .
+        . # # # .
+        . # . . .
+        . # # # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        . # . . .
+        . # . . .
+        . # . . .
+        . # . . .
+        . # # # .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        . # . # .
+        # # # # #
+        # # # # #
+        . # # # .
+        . . # . .
+        `)
+    basic.pause(5000)
+})
